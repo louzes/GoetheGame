@@ -18,17 +18,17 @@ public class AnswerLogic : MonoBehaviour
 
     public void OnRightCLick()
     {
-        if (answer.CompareTag("Correct") || _sceneOne)
+        if (answer.CompareTag("Correct") && _sceneOne)
         {
             _turnedOn = true;
             TurnedOn(1);
         }
-        if (answer.CompareTag("Correct") || _sceneTwo)
+        if (answer.CompareTag("Correct") && _sceneTwo)
         {
             _turnedOnTwo = true;
             TurnedOn(2);
         }
-        if (answer.CompareTag("Correct") || _sceneThree)
+        if (answer.CompareTag("Correct") && _sceneThree)
         {
             _turnedOnThree = true;
             TurnedOn(3);
@@ -37,17 +37,24 @@ public class AnswerLogic : MonoBehaviour
     }
     private void TurnedOn(int ID)
     {
+        bool turnedOn = false;
         if (ID == 1)
         {
-            //load
+            //load sprites
         }
-        if (ID == 2)
+        else if (ID == 2)
         {
-            //load
+            //load sprites
         }
-        if (ID == 3)
+        else if (ID == 3)
         {
-            //load
+            //load sprites
+            turnedOn = true;
+        }
+
+        if (turnedOn == true)
+        {
+            //load mini-game
         }
     }
 }
