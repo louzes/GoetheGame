@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections;
 using UnityEngine;
 
 public class BoxLogic : MonoBehaviour
@@ -20,7 +19,7 @@ public class BoxLogic : MonoBehaviour
         transform.position = target.position;
         Debug.Log("ENTER");
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
 
         isBeingAttracted = false;
     }
