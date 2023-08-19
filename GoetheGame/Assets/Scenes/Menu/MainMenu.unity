@@ -338,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &82683983
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &158464914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,6 +1425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &598282643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,6 +1886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &898196184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,6 +2339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 8300000, guid: e5c0b5435124eee4a9bab0e4dc5c16b7, type: 3}
 --- !u!114 &1123097331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2419,6 +2424,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1123097330}
+        m_TargetAssemblyTypeName: ButtonsLogic, Assembly-CSharp
+        m_MethodName: AudioClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2850,6 +2867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 8300000, guid: e5c0b5435124eee4a9bab0e4dc5c16b7, type: 3}
 --- !u!1 &1437311261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,6 +3420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &1544568123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3617,6 +3636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &1635419257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,6 +3953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &1765961756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,6 +4342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!114 &1797321953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4569,6 +4591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!114 &1840408639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4732,6 +4755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!114 &1949004182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5190,6 +5214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!114 &2061560657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5407,6 +5432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &2130651481
 GameObject:
   m_ObjectHideFlags: 0
@@ -5590,6 +5616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7e730e6f4803db40b434009700380af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Click: {fileID: 0}
 --- !u!1 &2139058546
 GameObject:
   m_ObjectHideFlags: 0
